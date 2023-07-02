@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Various Food Recipes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Various Food Recipes</h1>
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="find a recipe...">
+            <button type="submit" id="search-btn">Search</button>
+        </form>
+    </header>
+    <main>
+        <h2>Recipe Menu</h2>
+        <div id="recipe-list"></div>
+    </main>
+    <div id="recipe-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modal-title"></h2>
+            <img id="modal-image" src="" alt="">
+            <p id="modal-summary"></p>
+        </div>
+    </div>
+    <footer>
+        <h3>Copyright @2023 By Syifa Maulida</h3>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
